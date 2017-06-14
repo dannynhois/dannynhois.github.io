@@ -22,15 +22,23 @@
 	</div>
 	<div class="content-all">
 		<div class="content-main">
-			<h1>About Me</h1>
+			<h1>Contact</h1>
 			<hr>
-			<img id="profile-picture" src="assets/images/profile_picture.jpg" alt="picture of danny">
-			<p>
-				My name is Danny and I was born and raised in Houston, Texas. I went to the University of Houston where I graduated with an Accounting Degree. I've been married for almost 3 years and I'm currently trying to figure out how to raise a 14-month-old toddler. 
-			</p>
-			<p>
-				I used to love playing video games but now don't have as much time to play as I would like. I enjoy doing things that involve physical activity such as playing basketball, football, or lifting weights. I recently got into brazilian jiu-jitsu which has been fun and challenging at the same time.
-			</p>
+			<form>
+				<div class="row">
+					<label for="name">Name</label><br />
+					<input id="name" class="input" name="name" type="text" placeholder="John Doe" /> <br />
+				</div>
+				<div class="row">
+					<label for="email">Email</label><br />
+					<input id="email" class="input" name="email" type="text" placeholder="johndoe@example.com" /> <br />
+				</div>
+				<div class="row">
+					<label for="message">Message</label><br />
+					<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+				</div>
+				<button id="submitButton">Submit</button>
+			</form> 
 		</div>
 		<div class="content-sidebar">
 			<h2>Connect with me</h2>
